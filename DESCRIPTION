@@ -1,0 +1,12 @@
+Package: POSST
+Title: Position analysis of sequencing based spatial transcriptomics
+Version: 1.0.0
+Authors@R: 
+    person("Zhaonan", "Liu", , "zaozaozaonan@sjtu.edu.cn", role = c("aut", "cre"))
+Description: POSST is an open R tool which utilized the spatial information of the sequencing based spatial transcriptomics to analyze and visualize the position-associated biological feature. For a given spatial cluster, niche or area, POSST deliniated the boundary between this area and other region. Besides, the inter-niche and intra-niche spatial distrbution can be evaluated. 
+Depends: R (>= 3.6.0),dplyr,ggplot2
+License: Apache License (>= 2)
+Encoding: UTF-8
+Imports:Seurat (>= 4.0.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
